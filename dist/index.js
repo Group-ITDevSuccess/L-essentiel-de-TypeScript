@@ -1,7 +1,7 @@
 "use strict";
 const personne = {
     nom: "Muriel",
-    position: "Dev",
+    position: "dev",
     age: 15,
 };
 console.log(personne);

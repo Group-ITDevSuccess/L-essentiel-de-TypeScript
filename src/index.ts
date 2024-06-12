@@ -1,13 +1,18 @@
-interface Personne {
-    nom: string;
-    position: string;
+type Chaine = string;
+type Position = "dev" | "admin" | "users"
+
+
+type Personne  = {
+    nom: Chaine;
+    position: Position;
     age?: number;
 
 }
 
+
 const personne: Personne = {
     nom: "Muriel",
-    position: "Dev",
+    position: "dev",
     age: 15,
   
 }
